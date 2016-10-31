@@ -5,12 +5,6 @@
   display:table;
 }
 
-#title {
-  font-family: "osb";
-  text-align: center;
-  font-size: 33px;
-}
-
 p.solid {
   border-style: solid;
 }
@@ -21,8 +15,14 @@ p.solid {
 }
 
 @font-face {
-   font-family: "osb"
+  font-family: "osb";
   src: url("https://cbrieuc.github.io/fonts/osb.ttf");
+}
+
+#title {
+  font-family: "osl";
+  text-align: center;
+  font-size: 33px;
 }
 
 h1 {
