@@ -5,6 +5,11 @@
   display:table;
 }
 
+@font-face {
+  font-family: "osl";
+  src: url("https://cbrieuc.github.io/fonts/osl.ttf");
+}
+
 h1 {
   font-family: "osl";
   color:white;
@@ -20,10 +25,5 @@ a {
 }
 
 a:hover {
-  color:blue
-}
-
-@fontface {
-  font-family: osl;
-  src: url("osl.ttf");
+  color:rgb(169,240,115);
 }
