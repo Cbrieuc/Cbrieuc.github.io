@@ -5,13 +5,19 @@
   display:table;
 }
 
+#title {
+  font-family: "osl";
+  text-align: center;
+  font-size: 33px;
+}
+
 @font-face {
-  font-family: "hsl";
-  src: url("https://cbrieuc.github.io/fonts/hsl.ttf");
+  font-family: "osl";
+  src: url("https://cbrieuc.github.io/fonts/osl.ttf");
 }
 
 h1 {
-  font-family: "hsl";
+  font-family: "osl";
   color:white;
   font-size: 16px;
   text-align: right;
