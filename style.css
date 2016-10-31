@@ -6,7 +6,7 @@
 }
 
 #title {
-  font-family: "osl";
+  font-family: "osb";
   text-align: center;
   font-size: 33px;
 }
@@ -18,6 +18,11 @@ p.solid {
 @font-face {
   font-family: "osl";
   src: url("https://cbrieuc.github.io/fonts/osl.ttf");
+}
+
+@font-face {
+   font-family: "osb"
+  src: url("https://cbrieuc.github.io/fonts/osb.ttf");
 }
 
 h1 {
