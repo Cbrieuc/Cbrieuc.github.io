@@ -11,6 +11,10 @@
   font-size: 33px;
 }
 
+p.solid {
+  border-style: solid;
+}
+
 @font-face {
   font-family: "osl";
   src: url("https://cbrieuc.github.io/fonts/osl.ttf");
