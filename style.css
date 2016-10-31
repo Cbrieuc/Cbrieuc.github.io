@@ -1,7 +1,10 @@
-table {
-  width: 100%
+#header {
+  width: 100%;
   background-color: rgb(60,60,60);
-  color: white;
-  text-align: right;
+}
+
+h1 {
+  color:white;
   font-size: 15px;
+  text-align: right;
 }
