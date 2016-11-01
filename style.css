@@ -82,7 +82,11 @@ h1 {
 
 .headerlink {
   color: white;
+  display: inline-block;
   text-decoration: none;
+  z-index: 1;
+  padding: 16px 10px;
+  margin: -16px -10px;
 }
 
 
