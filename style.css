@@ -14,6 +14,10 @@ p.solid {
   src: url("https://cbrieuc.github.io/fonts/osl.ttf");
 }
 
+@fontface {
+  font-family :"rcr";
+  src: url("https://cbrieuc.github.io/fonts/rcr.ttf")
+}
 @font-face {
   font-family: "osb";
   src: url("https://cbrieuc.github.io/fonts/osb.ttf");
