@@ -1,12 +1,13 @@
-#header {
+#menu {
   width: 100%;
   height:50px;
   background-color: rgb(60,60,60);
   display:table;
 }
 
-p.solid {
-  border-style: solid;
+#menu.sticky {
+  position: fixed;
+  top:0;
 }
 
 @font-face {
@@ -24,6 +25,18 @@ p.solid {
   src: url("https://cbrieuc.github.io/fonts/osb.ttf");
 }
 
+#banner{
+background-image: url("https://cbrieuc.github.io/image/bann.jpg");
+height: 150px;
+color:white;
+font-family: "osb";
+font-size: 38px;
+text-align: left;
+padding-left: 40px;
+display:table;
+width:100%;
+}
+
 
 h1 {
   font-family: "osl";
@@ -32,6 +45,13 @@ h1 {
   text-align: right;
   vertical-align: middle;
   display:table-cell;
+}
+
+
+#banntext{
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0.8;
 }
 
 a {
