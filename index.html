@@ -2,15 +2,23 @@
 <html>
 
 <head>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <title>BRIEUC COUILLEROT</title>
 
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <script src="jquery.js">
-  </script>
+
+<script>var $window = $(window),
+       $stickyEl = $('#menu'),
+       elTop = $stickyEl.offset().top;
+
+   $window.scroll(function() {
+        $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
+    });
+</script>
+
   <header id=banner>
     <span id=banntext>BRIEUC COUILLEROT<br>Ecologist, Explorer... For Hire!</span>
   </header>
