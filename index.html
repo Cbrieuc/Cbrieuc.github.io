@@ -10,13 +10,19 @@
 
 <body>
 
-<script>var $window = $(window),
-       $stickyEl = $('#menu'),
-       elTop = $stickyEl.offset().top;
-
-   $window.scroll(function() {
-        $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
-    });
+<script type="text/javascript">
+$(document).ready(function() {
+	var s = $("#menu");
+	var pos = s.position();
+	$(window).scroll(function() {
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s.addClass("sticky");
+		} else {
+			s.removeClass("sticky");
+		}
+	});
+});
 </script>
 
   <header id=banner>
