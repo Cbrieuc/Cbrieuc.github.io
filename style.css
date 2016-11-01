@@ -14,9 +14,9 @@ p.solid {
   src: url("https://cbrieuc.github.io/fonts/osl.ttf");
 }
 
-@fontface {
-  font-family :"rcr";
-  src: url("https://cbrieuc.github.io/fonts/rcr.ttf");
+@font-face {
+  font-family: "jsor";
+  src: url("https://cbrieuc.github.io/fonts/jsor.ttf");
 }
 
 @font-face {
@@ -25,9 +25,11 @@ p.solid {
 }
 
 #title {
-  font-family: "rcr";
+  font-family: "jsor";
   text-align: center;
   font-size: 33px;
+  background-color: black;
+  color:white;
 }
 
 h1 {
