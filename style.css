@@ -23,11 +23,11 @@ li {
 
 li:hover{
   background-color: rgb(45,45,45);
--webkit-transition: background-color 1000ms ease;
--moz-transition: background-color 1000ms ease;
--o-transition: background-color 1000ms ease;
--ms-transition: background-color 1000ms ease;
-transition: background-color 1000ms ease;
+-webkit-transition: background-color 1000ms ease-out;
+-moz-transition: background-color 1000ms ease-out;
+-o-transition: background-color 1000ms ease-out;
+-ms-transition: background-color 1000ms ease-out;
+transition: background-color 1000ms ease-out;
 }
 
 @font-face {
