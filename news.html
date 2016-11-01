@@ -28,12 +28,12 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#corps").css("display", "none");
 
-    $("#corps").fadeIn(400);
+    $("#corps").fadeIn(900);
 
     $("a.transition").click(function(event){
         event.preventDefault();
         linkLocation = this.href;
-        $("#corps").fadeOut(100, redirectPage);
+        $("#corps").fadeOut(800, redirectPage);
     });
 
     function redirectPage() {
