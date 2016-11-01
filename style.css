@@ -29,7 +29,6 @@
 background-image: url("https://cbrieuc.github.io/image/bann.jpg");
 height: 150px;
 color:white;
-font-family: "osb";
 font-size: 38px;
 text-align: left;
 padding-left: 40px;
@@ -49,6 +48,7 @@ h1 {
 
 
 #banntext{
+  font-family: "osl";
   display: table-cell;
   vertical-align: middle;
   opacity: 0.8;
