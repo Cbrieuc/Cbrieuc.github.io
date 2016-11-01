@@ -55,7 +55,7 @@ transition: background-color 1000ms ease-out;
 background-image: url("https://cbrieuc.github.io/image/bann2.jpg");
 height: 150px;
 color:white;
-text-align: center;
+text-align: left;
 padding-left: 40px;
 display:table;
 width:100%;
