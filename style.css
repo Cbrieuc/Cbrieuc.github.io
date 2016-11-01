@@ -4,27 +4,21 @@
   background-color: rgb(70,70,70);
   margin:0px;
   display: table;
-  -webkit-transition: background .25s ease-in-out;
 }
-!#menu:hover{
-  background-color: rgb(45,45,45);
--webkit-transition: background-color 1000ms ease;
--moz-transition: background-color 1000ms ease;
--o-transition: background-color 1000ms ease;
--ms-transition: background-color 1000ms ease;
-transition: background-color 1000ms ease;
-}
-
 
 #menu.sticky {
   position: fixed;
   top:0;
 }
 
+ul{
+  float:right;
+}
+
 li {
+  text-align: center;
   display:inline;
   line-height: 100%;
-  text-align: right;
   padding: 16px 10px;
 }
 
