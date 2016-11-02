@@ -39,7 +39,7 @@ transition: background-color 1000ms ease-out;
 
 @font-face {
   font-family: "jsor";
-  src: url("https://cbrieuc.github.io/fonts/jsor.ttf");
+  src: url("https://cbrieuc.github.io/fonts/osb.ttf");
 }
 
 @font-face {
@@ -82,7 +82,7 @@ h1 {
   vertical-align: middle;
   opacity: 0.7;
   font-size: 46px;
-  text-align: center;
+  text-align: left;
 }
 
 
