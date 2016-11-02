@@ -58,9 +58,9 @@ transition: background-color 1000ms ease-out;
 }
 
 #banner{
-background-image: url("https://cbrieuc.github.io/image/bann2.jpg");
+background-color:rgb(247, 239, 226);
 height: 150px;
-color:white;
+color:black;
 text-align: left;
 display:table;
 width:100%;
