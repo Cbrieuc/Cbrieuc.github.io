@@ -1,7 +1,7 @@
 #menu {
   width: 100%;
   height:50px;
-  background-color: rgb(77, 52, 38);
+  background-color: rgb(61,42,29);
   ;
   margin:0px;
   display: table;
@@ -25,7 +25,7 @@ li {
 }
 
 li:hover{
-  background-color: rgb(61,42,29);
+  background-color: rgb(39,26,19);
 -webkit-transition: background-color 1000ms ease-out;
 -moz-transition: background-color 1000ms ease-out;
 -o-transition: background-color 1000ms ease-out;
@@ -61,7 +61,7 @@ transition: background-color 1000ms ease-out;
 #banner{
 background-color:rgb(247, 239, 226);
 height: 150px;
-color:rgb(77, 52, 38);
+color:rgb(61,42,29);
 text-align: left;
 display:table;
 width:100%;
@@ -101,4 +101,11 @@ h1 {
 body {
   background-color: rgb(255,255,255);
   margin:0px;
+}
+
+#corps {
+    text-align: center;
+    font-family:"osl";
+    color:rgb(39,26,19);
+    font-size: 18px;
 }
