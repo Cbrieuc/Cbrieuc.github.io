@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <title>BRIEUC COUILLEROT</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	var s = $("#menu");
+	var pos = s.position();
+	$(window).scroll(function() {
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s.addClass("sticky");
+		} else {
+			s.removeClass("sticky");
+		}
+	});
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#corps").css("display", "none");
+
+    $("#corps").fadeIn(900);
+
+    $("a.transition").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("#corps").fadeOut(800, redirectPage);
+    });
+
+    function redirectPage() {
+        window.location = linkLocation;
+    }
+});
+</script>
+
+  <header id=banner>
+    <div id=banntext>
+      <p style="font-family:sr; font-size: 30px; opacity:0.9; background-color:rgba(0,0,0,0.9);margin-left:150px;margin-right:150px;line-height:40px;">
+        &nbsp;brieuc couillerot&nbsp;<br><span style="font-size:25px;">ecologist, explorer... For hire!</span>
+      </p>
+    </div>
+  </header>
+
+  <div id=menu>
+    <ul>
+    <h1>
+    <li><a class="headerlink" href="index.html">&nbsp;&nbsp;&nbsp;ABOUT ME &nbsp;&nbsp;&nbsp;</a></li>
+    <li><a class="headerlink" href="news.html">&nbsp;&nbsp;&nbsp;NEWS &nbsp;&nbsp;&nbsp;</a></li>
+    <li><a class="headerlink" href="experience.html">&nbsp;&nbsp;&nbsp;EXPERIENCE &nbsp;&nbsp;&nbsp;</a></li>
+    <li><a class="headerlink" href="documents.html">&nbsp;&nbsp;&nbsp;DOCUMENTS &nbsp;&nbsp;&nbsp;</a></li>
+    <li><a class="headerlink" href="skills.html">&nbsp;&nbsp;&nbsp;SKILLS AND INTERESTS &nbsp;&nbsp;&nbsp;</a></li>
+    <li><a class="headerlink" href="contact.html">&nbsp;&nbsp;&nbsp;CONTACT &nbsp;&nbsp;&nbsp;</a></li>
+  </h1>
+</ul>
+</div>
+
+<!--body artificiel pour fade tout sauf header quand page change-->
+<div id=corps>
+
+<pre>wg
+regt
+g
+rg
+rg
+rg
+rg
+rg
+rg
+rg
+drgreg
+ergeg
+erqgqerg
+ergerqgre
+qergerr
+tsh
+eeee
+eeeeee
+eeee
+gr
+gr
+gr
+gr
+gr
+gr
+
+g
+g
+dfg
+dfg
+dfg
+dfg
+zer
+ezr
+zer
+zer
+zer
+sdf
+gr
+rg
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+g
+g
+r
+gr
+r
+g
+gr
+gr
+grrg
+rg
+rg
+gr
+gr
+gr
+gr
+gr
+
+gr
+rg
+rg
+gr
+gr
+gr
+rg
+rg
+gr
+
+gr
+gr
+gr
+gr
+rg
+</pre>
+
+</div>
+<!--fin du body artificiel pour fade tout sauf header quand page change-->
+
+</body>
+
+</html>
