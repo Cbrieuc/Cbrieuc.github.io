@@ -43,6 +43,11 @@ transition: background-color 1000ms ease-out;
 }
 
 @font-face {
+  font-family: "kor";
+  src: url("https://cbrieuc.github.io/fonts/kor.ttf");
+}
+
+@font-face {
   font-family: "sb";
   src: url("https://cbrieuc.github.io/fonts/sb.ttf");
 }
