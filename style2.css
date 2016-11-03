@@ -25,11 +25,21 @@ li {
 
 li:hover{
   background-color: rgb(39,26,19);
--webkit-transition: background-color 1000ms ease-out;
--moz-transition: background-color 1000ms ease-out;
--o-transition: background-color 1000ms ease-out;
--ms-transition: background-color 1000ms ease-out;
+-webkit-transition: background-color 1000ms ease-out; /* Safari and Chrome */
+-moz-transition: background-color 1000ms ease-out; /* Firefox */
+-o-transition: background-color 1000ms ease-out;/* Opera */
+-ms-transition: background-color 1000ms ease-out; /* IE 9 */
 transition: background-color 1000ms ease-out;
+}
+
+
+img.twit:hover{
+  transform:scale(0.8);
+     -ms-transform:scale(0.8) 1000ms ease-out; /* IE 9 */
+     -moz-transform:scale(0.8) 1000ms ease-out; /* Firefox */
+     -webkit-transform:scale(0.8) 1000ms ease-out; /* Safari and Chrome */
+     -o-transform:scale(0.8) 1000ms ease-out; /* Opera */
+     transition: 1000ms ease-out;
 }
 
 @font-face {
