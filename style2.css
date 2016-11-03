@@ -99,7 +99,9 @@ h1 {
 
 
 body {
-  background-color: rgb(255,255,255);
+  background-image: url("https://cbrieuc.github.io/image/onpriver.jpg");
+  background-size: 100%;
+  background-blend-mode: darken;
   margin:0px;
 }
 
