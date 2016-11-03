@@ -1,7 +1,7 @@
 #menu {
   width: 100%;
   height:50px;
-  background-color: rgb(61,42,29);
+  background-color: rgb(69,61,52);
   ;
   margin:0px;
   display: table;
@@ -61,7 +61,7 @@ transition: background-color 1000ms ease-out;
 #banner{
 background-color:rgb(247, 239, 226);
 height: 150px;
-color:rgb(61,42,29);
+color:rgb(69,61,52);
 text-align: left;
 display:table;
 width:100%;
@@ -101,6 +101,7 @@ h1 {
 body {
   background-image: url("https://cbrieuc.github.io/image/onpriver.png");
   background-size: 100%;
+  background-attachment: fixed;
   margin:0px;
 }
 
@@ -109,4 +110,12 @@ body {
     font-family:"osl";
     color:rgb(39,26,19);
     font-size: 18px;
+}
+
+div.contentblock {
+  background-color:white;
+  margin-left:100px;
+  margin-top:100px;
+  margin-right:100px;
+  margin-bottom:100px;
 }
