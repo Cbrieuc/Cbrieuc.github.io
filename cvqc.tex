@@ -1,0 +1,125 @@
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+%WATERMARK TEST [**not part of a CV**]---------------
+%\font\wm=''Baskerville:color=787878'' at 8pt
+%\font\wmweb=''Baskerville:color=FF1493'' at 8pt
+%{\wm
+%	\begin{textblock}{1}(0,0)
+%		\rotatebox{-90}{\parbox{500mm}{
+%			Typeset by Alessandro Plasmati with \XeTeX\  \today\ for
+%			{\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
+%		}
+%	}
+%	\end{textblock}
+%}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Brieuc \textsc{Couillerot}
+	}\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+\section{Informations}
+
+\begin{tabular}{rl}
+    \textsc{Téléphone:}     & +1 (438) 405 4626\\
+    \textsc{email:}     & \href{mailto:couillerot.brieuc@gmail.com}{couillerot.brieuc@gmail.com}
+\end{tabular}
+
+
+%Section: Work Experience at the top
+\section{Expérience professionnelle}
+\begin{tabular}{r|p{11cm}}
+
+ \emph & Technicien Pêcheries et Faune Sauvage pour \textsc{Olympic National Park} et \textsc{Lower Elwha Klallam Tribe}, Etats-Unis (WA) \\\textsc{AVRIL - OCTOBRE 2016}&\emph{Superviseurs: Samuel Brenkman, Patrick Crain, Kim Sager-Fradkin }\\&\footnotesize{Contribution à plusieurs projets dans le contexte d'une restauration écosystémique à grande échelle : Etude de la distribution spatiale et temporelle de plusieurs espèces de salmonidés (principalement \textit{Oncorhynchus sp}.). Capture et suivi de populations de cerfs à queue noire et de wapitis de Roosevelt (\textit{Odocoileus hemionus} et \textit{Cervus canadensis roosevelti}), Capture-Marquage-Recapture dans le cadre d'une étude visant à estimer l'impact des communautés de rongeurs sur la dynamique de revégétation d'un ancien lac (principalement \textit{Microtus sp.} et \textit{Peromyscus sp.}) et autres projets satellites (Récupération de données sur des populations de Pékan (Martes pennanti) via pièges photographiques, participation active à différents évènements organisés par l'Olympic National Park).  }\\\multicolumn{2}{c}{} \\
+
+ \textsc{MARS - SEPTEMBRE 2015} & Chargé d'étude chez Centre National de la Recherche Scientifique (CNRS) - Laboratoire "Ecologie, Systématique, Evolution", Orsay, France \\&\emph{Superviseur: François Chiron}\\&\footnotesize{Développement d'un observatoire de la biodiversité du socio-écosystème du Plateau de Saclay dans le contexte d'un territoire partagé entre activités agricoles et urbanisation: Définition des enjeux et objectifs de l'observatoire, identification et communication avec les différents acteurs de la biodiversité de l'échelle locale à l'échelle nationale, acquisition des données de biodiversité et développement fonctionnel de l'observatoire. Rédaction d'un mémoire scientifique servant de base de communication future avec les acters potentiels de l'observatoire.}\\\multicolumn{2}{c}{} \\
+
+\textsc{FEVRIER - AVRIL 2014} & Stagiaire Recherche chez Centre National de la Recherche Scientifique (CNRS) - Laboratoire "Ecologie, Systématique, Evolution", Orsay, France \\&\emph{Superviseur: Carmen Bessa-Gomes}\\&\footnotesize{Etude de l'impact du degré d'urbanisation sur l'utilisation des mangeoires par les communautés aviaires: Installation et maintenance d'un protocole d'échantillonnage basé sur l'utilisation de pièges photographiques; identification des oiseaux capturés par les pièges photographiques, analyse statistique des données et rédaction d'un mémoire scientifique.}\\\multicolumn{2}{c}{} \\
+
+\textsc{JUIN - AOUT 2013} & Technicien Recherche chez Centre National de la Recherche Scientifique (CNRS) - Station Biologique de Foljuif, France \\&\emph{Superviseur: Lydie Blottière}\\&\footnotesize{Etude de l'impact de la température et des perturbations physiques sur les réseaux trophiques aquatiques, travail sur un protocole d'expérimentation en mésocosme aquatique: Récupération d'échantillons d'eau et analyses physico-chimiques et biochimiques, synthèse bibliographique sur l'impact de l'apport de nutriments phosphorés et azotés en milieu aquatique dans le contexte d'un risque d'efflorescence cyanobactérienne}\\\multicolumn{2}{c}{} \\
+\end{tabular}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{1|p{11cm}}
+2013 - 2015 & Maîtrise (Deuxième cycle) en \textsc{Environnement, Biologie des Ecosystèmes} à \textbf{Université Paris-Sud-XI}, France\\&\footnotesize{
+Ecologie Fonctionelle | Ecologie Evolutive | Modélisation | Dynamiques de Populations | Biostatistiques | Conservation | Socio-Ecosystèmes | Bases de Données | Limnologie Intégrative | Méthodes et Mesures en Ecologie | Droit de l'Environnement}\\\multicolumn{2}{c}{}
+\\
+
+2011 - 2013& Licence (Premier cycle) en \textsc{Biologie Générale} à \textbf{Université Paris-Sud-XI}, France\\&\footnotesize{
+Ecologie Fonctionnelle | Biologie Animale et Systématique | Biologie Végétale et Systématique | Ecotoxicologie | Pédologie | Géologie | Biologie Moléculaire | Biochimie | Développement Animal | Génétique | Physiologie Animale | Neuro-biologie | Mathématiques}\\\multicolumn{2}{c}{}
+\\
+
+2009 - 2011& Classes préparatoires scientifiques à \textbf{Ecole d'Ingénieurs Bio-Industrie (EBI)}, Cergy, France\\&\footnotesize{
+Biologie et Chimie des Ecosystèmes | Biochimie Structurelle et Metabolique | Biologie Cellulaire et Génétique | Enzymologie et Cinétique Biochimique | Microbiologie | Biologie Moléculaire | Thermodynamique | Chimie Générale | Électromagnetisme et Ondes | Mécanique des Fluides}\\\multicolumn{2}{c}{}
+\\
+\end{tabular}
+
+
+%Section: Langues
+\section{Langues}
+\begin{tabular}{rl}
+ \textsc{Français:}&Langue Natale\\
+\textsc{Englais:}&Courant\\
+\textsc{Espagnol:}&Basique\\
+\textsc{Japonais:}&Débutant\\
+\end{tabular}
+
+\section{Compétences en Informatique}
+\begin{tabular}{rl}
+Logiciels et Plateformes:& \textsc{QGIS}, \textsc{Mark}, \textsc{Microsoft Office}, \textsc{Atom}, \textsc{Github}\\
+Languages:& \textsc{R}, \textsc{HTML}, \textsc{CSS}, \textsc{JavaScript}, \textsc{LaTeX}\\
+\end{tabular}
+
+\section{Intérêts et Activités}
+Technologie, Développement web (site personnel : \href{https://cbrieuc.github.io/index2.html}{https://cbrieuc.github.io/index2.html})\\
+Trekking, Kayak, Guitare Classique et autres instruments.\\
+Voyages et langues étrangères: Amérique du Nord, Asie, Europe
+
+%\newpage
+%\hypertarget{gmat}{\textsc{Gmat}\setmainfont{LMRoman10 Regular}\textregistered\setmainfont[SmallCapsFont=Fontin-SmallCaps]{Fontin-Regular}}
+
+%\XeTeXpdffile ''GMAT.pdf'' page 1 scaled 800
+
+\end{document}
