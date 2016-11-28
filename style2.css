@@ -87,6 +87,11 @@ h1 {
   display:table-cell;
 }
 
+h2 {
+  font-family:"osl";
+  color:rgb(69,61,52);
+  padding-top: 20px;
+}
 
 #banntext{
   display: table-cell;
@@ -116,9 +121,9 @@ body {
 }
 
 #corps {
-    text-align: center;
+    text-align: left;
     font-family:"osl";
-    color:rgb(39,26,19);
+    color:rgb(69,61,52);
     font-size: 18px;
 }
 
@@ -128,4 +133,6 @@ div.contentblock {
   margin-top:50px;
   margin-right:100px;
   margin-bottom:100px;
+  padding-left: 50px;
+  padding-bottom: 20px;
 }
