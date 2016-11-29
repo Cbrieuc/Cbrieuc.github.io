@@ -111,7 +111,10 @@ h2 {
   margin: -16px -10px;
 }
 
-
+.cloud {
+  max-width: 300px;
+  max-height: 300px;
+}
 
 body {
   background-image: url("https://cbrieuc.github.io/image/onpriver.png");
@@ -135,4 +138,5 @@ div.contentblock {
   margin-bottom:100px;
   padding-left: 50px;
   padding-bottom: 20px;
+  line-height: 28px;
 }
