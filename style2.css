@@ -42,6 +42,10 @@ img.twit:hover{
      transition: 1000ms ease-out;
 }
 
+.pdfbutton {
+  margin-bottom: -15px;
+}
+
 @font-face {
   font-family: "osl";
   src: url("https://cbrieuc.github.io/fonts/osl.ttf");
