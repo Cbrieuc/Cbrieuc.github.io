@@ -116,6 +116,11 @@ h2 {
   margin: -16px -10px;
 }
 
+a {
+text-decoration: none;
+color:rgb(69,61,52);
+}
+
 .cloud {
   max-width: 300px;
   max-height: 300px;
@@ -138,10 +143,36 @@ body {
 div.contentblock {
   background-color:white;
   margin-left:100px;
-  margin-top:50px;
+  margin-top:10px;
   margin-right:100px;
-  margin-bottom:100px;
+  margin-bottom:80px;
   padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 20px;
   line-height: 28px;
+}
+
+div.img {
+    margin: 30px;
+    border: 1px solid #ccc;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.img:hover {
+      border: 1px solid rgb(69,61,52);
+}
+
+div.img img {
+    width: 70px;
+    height: auto;
+    margin: 10px;
+}
+
+div.desc {
+    padding: 35px;
+    text-align: left;
+    float:right;
+    vertical-align: middle;
 }
