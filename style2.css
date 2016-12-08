@@ -154,24 +154,29 @@ div.contentblock {
 
 div.img {
     margin: 30px;
-    border: 1px solid #ccc;
+    border: 5px solid #ccc;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    -webkit-transition: background-color 1000ms ease-out; /* Safari and Chrome */
+    -moz-transition: background-color 1000ms ease-out; /* Firefox */
+    -o-transition: background-color 1000ms ease-out;/* Opera */
+    -ms-transition: background-color 1000ms ease-out; /* IE 9 */
+    transition: background-color 1000ms ease-out;
 }
 
 div.img:hover {
-      border: 1px solid rgb(69,61,52);
+      border: 5px solid rgb(69,61,52);
 }
 
 div.img img {
-    width: 70px;
+    width: 50px;
     height: auto;
     margin: 10px;
 }
 
 div.desc {
-    padding: 35px;
+    padding: 25px;
     text-align: left;
     float:right;
     vertical-align: middle;
