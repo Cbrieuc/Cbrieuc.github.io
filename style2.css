@@ -158,15 +158,15 @@ div.img {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    -webkit-transition: background-color 1000ms ease-out; /* Safari and Chrome */
-    -moz-transition: background-color 1000ms ease-out; /* Firefox */
-    -o-transition: background-color 1000ms ease-out;/* Opera */
-    -ms-transition: background-color 1000ms ease-out; /* IE 9 */
-    transition: background-color 1000ms ease-out;
 }
 
 div.img:hover {
       border: 5px solid rgb(69,61,52);
+      -webkit-transition: border-color 1s ease-out; /* Safari and Chrome */
+      -moz-transition: border-color 1s ease-out; /* Firefox */
+      -o-transition: border-color 1s ease-out;/* Opera */
+      -ms-transition: border-color 1s ease-out; /* IE 9 */
+      transition: border-color 1s ease-out;
 }
 
 div.img img {
