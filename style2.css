@@ -150,6 +150,8 @@ div.contentblock {
   padding-right: 50px;
   padding-bottom: 20px;
   line-height: 28px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 div.img {
