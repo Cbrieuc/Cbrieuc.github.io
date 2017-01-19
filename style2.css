@@ -236,11 +236,12 @@ div.imgexp:hover {
 
 div.imgexp img {
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 
+
 div.desc_img_exp {
-    padding: 15px;
+    padding: 5px;
     text-align: center;
 }
 /* --------------Page experience (fin)--------------- */
