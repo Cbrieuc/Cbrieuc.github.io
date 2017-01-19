@@ -222,3 +222,25 @@ div.desc {
 	min-height:100%;
 	position:relative;
 }
+/* --------------Page experience (début)--------------- */
+div.imgexp {
+  margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 180px;
+}
+
+div.imgexp:hover {
+    border: 1px solid #777;
+}
+
+div.imgexp img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc_img_exp {
+    padding: 15px;
+    text-align: center;
+}
+/* --------------Page experience (fin)--------------- */
