@@ -152,6 +152,8 @@ body {
   background-size: 100%;
   background-attachment: fixed;
   margin:0px;
+  padding:0;
+height:100%;
 }
 
 #corps {
@@ -159,6 +161,7 @@ body {
     font-family:"osl";
     color:rgb(69,61,52);
     font-size: 18px;
+        	padding-bottom:300px;
 }
 
 div.contentblock {
@@ -209,6 +212,14 @@ div.desc {
 
 /* --------------Page Contact (fin)--------------- */
 
-footer{
+#footer {
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+}
 
+#wrapper {
+	min-height:100%;
+	position:relative;
 }
