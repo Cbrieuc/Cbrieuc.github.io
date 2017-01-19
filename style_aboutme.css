@@ -1,0 +1,210 @@
+/* --------------Header (début)--------------- */
+
+#menu {
+  width: 100%;
+  height:50px;
+  background-color:rgb(69,61,52);
+  margin:0px;
+  display: table;
+  right:0;
+  position: fixed;
+  top:0;
+}
+
+#menu.sticky {
+  position: fixed;
+  top:0;
+}
+
+#headerul{
+  float:right;
+}
+#headerul2{
+  float:left;
+}
+
+li {
+  display:inline;
+  line-height: 100%;
+  padding: 16px 10px;1
+}
+
+li.active:hover{
+  background-color: rgb(39,26,19);
+-webkit-transition: background-color 1000ms ease-out; /* Safari and Chrome */
+-moz-transition: background-color 1000ms ease-out; /* Firefox */
+-o-transition: background-color 1000ms ease-out;/* Opera */
+-ms-transition: background-color 1000ms ease-out; /* IE 9 */
+transition: background-color 1000ms ease-out;
+}
+
+
+img.twit:hover{
+  transform:scale(0.8);
+     -ms-transform:scale(0.8) 1000ms ease-out; /* IE 9 */
+     -moz-transform:scale(0.8) 1000ms ease-out; /* Firefox */
+     -webkit-transform:scale(0.8) 1000ms ease-out; /* Safari and Chrome */
+     -o-transform:scale(0.8) 1000ms ease-out; /* Opera */
+     transition: 1000ms ease-out;
+}
+
+#banner{
+background-color:rgb(247, 239, 226);
+height: 150px;
+color:rgb(0, 0,0 );
+text-align: left;
+display:table;
+width:100%;
+max-width:4250px;
+max-height:158px;
+}
+
+#banntext{
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0.8;
+  font-size: 46px;
+  text-align: center;
+}
+
+
+.headerlink {
+  color: rgb(247, 239, 226);
+  display: inline-block;
+  text-decoration: none;
+  z-index: 1;
+  padding: 16px 10px;
+  margin: -16px -10px;
+}
+
+/* --------------Header (fin)--------------- */
+
+
+@font-face {
+  font-family: "osl";
+  src: url("https://cbrieuc.github.io/fonts/osl.ttf");
+}
+
+@font-face {
+  font-family: "jsor";
+  src: url("https://cbrieuc.github.io/fonts/osb.ttf");
+}
+
+@font-face {
+  font-family: "kor";
+  src: url("https://cbrieuc.github.io/fonts/kor.ttf");
+}
+
+@font-face {
+  font-family: "sb";
+  src: url("https://cbrieuc.github.io/fonts/sb.ttf");
+}
+
+@font-face {
+  font-family: "sr";
+  src: url("https://cbrieuc.github.io/fonts/sr.ttf");
+}
+
+
+
+h1 {
+  font-family: "osl";
+  color:white;
+  font-size: 16px;
+  vertical-align: middle;
+  display:table-cell;
+}
+
+h2 {
+  font-family:"osl";
+  color:rgb(69,61,52);
+  padding-top: 20px;
+  line-height:40px;
+}
+
+h3 {
+  font-family:"osl";
+  color:rgb(69,61,52);
+  font-size: 20px;
+}
+
+a {
+text-decoration: none;
+color:rgb(69,61,52);
+}
+
+/* --------------Documents (début)--------------- */
+
+.cloud {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.pdfbutton {
+  margin-bottom: -15px;
+}
+
+/* --------------Documents (fin)--------------- */
+
+
+body {
+  background-image: url("https://cbrieuc.github.io/image/aboutme.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  margin:0px;
+}
+
+#corps {
+    text-align: left;
+    font-family:"osl";
+    color:rgb(69,61,52);
+    font-size: 18px;
+}
+
+div.contentblock {
+  background-color:white;
+  margin-left:65%;
+  margin-top:100px;
+  margin-right:10px;
+  margin-bottom:80px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  line-height: 28px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* --------------Page Contact (début)--------------- */
+
+div.img {
+    margin: 30px;
+    border: 5px solid #ccc;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.img:hover {
+      border: 5px solid rgb(69,61,52);
+      -webkit-transition: border-color 1s ease-out; /* Safari and Chrome */
+      -moz-transition: border-color 1s ease-out; /* Firefox */
+      -o-transition: border-color 1s ease-out;/* Opera */
+      -ms-transition: border-color 1s ease-out; /* IE 9 */
+      transition: border-color 1s ease-out;
+}
+
+div.img img {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}
+
+div.desc {
+    padding: 25px;
+    text-align: left;
+    float:right;
+    vertical-align: middle;
+}
+
+/* --------------Page Contact (fin)--------------- */
