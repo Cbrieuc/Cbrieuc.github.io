@@ -224,24 +224,24 @@ div.desc {
 }
 /* --------------Page experience (début)--------------- */
 div.imgexp {
-  margin: 5px;
-border: 1px solid #ccc;
+display:inline-block;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom:10px;
 float: left;
 width: 180px;
 }
 
 div.imgexp:hover {
-    border: 1px solid #777;
+
 }
 
 div.imgexp img {
-    width: 100%;
-    height: 200px;
+    width: 80%;
+    height: auto;
 }
 
 
-div.desc_img_exp {
-    padding: 5px;
-    text-align: center;
-}
+
+
 /* --------------Page experience (fin)--------------- */
