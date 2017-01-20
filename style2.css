@@ -9,6 +9,7 @@
   right:0;
   position: fixed;
   top:0;
+  z-index: 2;
 }
 
 #menu.sticky {
@@ -241,7 +242,110 @@ div.imgexp img {
     height: auto;
 }
 
+.tooltiptop {
+    position:relative;
+    display: inline-block;
+}
 
+.tooltiptop .tooltiptexttop {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 40%;
+    margin-left: -80px;
+}
+
+.tooltiptop .tooltiptexttop::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltiptop:hover .tooltiptexttop {
+    visibility: visible;
+}
+
+
+
+.tooltiptopsmall {
+    position:relative;
+    display: inline-block;
+}
+
+.tooltiptopsmall .tooltiptexttopsmall {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 2%;
+    margin-left: -80px;
+}
+
+.tooltiptopsmall .tooltiptexttopsmall::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltiptopsmall:hover .tooltiptexttopsmall {
+    visibility: visible;
+}
+
+.tooltipleftsmall {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltipleftsmall .tooltiptextleftsmall {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    right: 110%;
+}
+
+.tooltipleftsmall .tooltiptextleftsmall::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+.tooltipleftsmall:hover .tooltiptextleftsmall {
+    visibility: visible;
+}
 
 
 /* --------------Page experience (fin)--------------- */
