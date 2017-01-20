@@ -242,6 +242,11 @@ div.imgexp img {
     height: auto;
 }
 
+/* --------------TOOLTIP START--------------- */
+        /* --------------TOOLTIP Style 1--------------- */
+
+
+
 .tooltiptop {
     position:relative;
     display: inline-block;
@@ -250,8 +255,8 @@ div.imgexp img {
 .tooltiptop .tooltiptexttop {
     visibility: hidden;
     width: 300px;
-    background-color: black;
-    color: #fff;
+    background-color: rgb(69,61,52);
+    color: rgb(247, 239, 226);
     text-align: center;
     border-radius: 6px;
     padding: 5px 5px;
@@ -260,6 +265,9 @@ div.imgexp img {
     bottom: 110%;
     left: 40%;
     margin-left: -80px;
+
+    opacity: 0;
+    transition: opacity 0.8s;
 }
 
 .tooltiptop .tooltiptexttop::after {
@@ -275,8 +283,10 @@ div.imgexp img {
 
 .tooltiptop:hover .tooltiptexttop {
     visibility: visible;
+    opacity: 1;
 }
 
+        /* --------------TOOLTIP Style 2--------------- */
 
 
 .tooltiptopsmall {
@@ -287,8 +297,8 @@ div.imgexp img {
 .tooltiptopsmall .tooltiptexttopsmall {
     visibility: hidden;
     width: 300px;
-    background-color: black;
-    color: #fff;
+    background-color: rgb(69,61,52);
+    color: rgb(247, 239, 226);
     text-align: center;
     border-radius: 6px;
     padding: 5px 5px;
@@ -297,6 +307,10 @@ div.imgexp img {
     bottom: 110%;
     left: 2%;
     margin-left: -80px;
+
+    opacity: 0;
+    transition: opacity 0.8s;
+
 }
 
 .tooltiptopsmall .tooltiptexttopsmall::after {
@@ -312,7 +326,11 @@ div.imgexp img {
 
 .tooltiptopsmall:hover .tooltiptexttopsmall {
     visibility: visible;
+    opacity: 1;
+
 }
+
+        /* --------------TOOLTIP Style 3--------------- */
 
 .tooltipleftsmall {
     position: relative;
@@ -322,8 +340,8 @@ div.imgexp img {
 .tooltipleftsmall .tooltiptextleftsmall {
     visibility: hidden;
     width: 300px;
-    background-color: black;
-    color: #fff;
+    background-color: rgb(69,61,52);
+    color: rgb(247, 239, 226);
     text-align: center;
     border-radius: 6px;
     padding: 5px 5px;
@@ -331,6 +349,10 @@ div.imgexp img {
     z-index: 1;
     top: 25px;
     right: 110%;
+
+    opacity: 0;
+    transition: opacity 0.8s;
+
 }
 
 .tooltipleftsmall .tooltiptextleftsmall::after {
@@ -345,7 +367,12 @@ div.imgexp img {
 }
 .tooltipleftsmall:hover .tooltiptextleftsmall {
     visibility: visible;
+    opacity: 1;
+
 }
+
+/* --------------TOOLTIP END--------------- */
+
 
 
 /* --------------Page experience (fin)--------------- */
